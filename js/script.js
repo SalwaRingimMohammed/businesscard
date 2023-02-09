@@ -28,7 +28,8 @@ function klikHome(){
     document.querySelector('#piccard').classList.add('card2');
     document.querySelector('#biocard').classList.remove('card1');
 
-    
+    let myAudio = document.querySelector('#audio')
+myAudio.play()
 }
 
 function klikBio(){
@@ -38,7 +39,9 @@ function klikBio(){
 
     document.querySelector('#homecard').classList.add('card2');
     document.querySelector('#piccard').classList.add('card3');
-
+    
+    let myAudio = document.querySelector('#audio')
+    myAudio.play()
 }
 
 function klikPic(){
@@ -50,6 +53,8 @@ function klikPic(){
     document.querySelector('#homecard').classList.add('card2');
     document.querySelector('#biocard').classList.add('card3');
 
+    let myAudio = document.querySelector('#audio')
+        myAudio.play()
     /*piccard = 'ontop';
     document.querySelector('#piccard').classList.add('card1');
 
