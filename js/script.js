@@ -13,7 +13,7 @@ fetch('https://whois.fdnd.nl/api/v1/member/salwa-rm').then((data) =>{
     //console.log(data);
     return data.json();
 }) .then((completedata)=>{
-    console.log(completedata.member.name);
+    console.log(completedata.member.id);
     document.getElementById('bio').innerHTML= completedata.member.bio.html;
     document.getElementById('picture').src= completedata.member.avatar;
 
